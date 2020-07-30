@@ -3,21 +3,21 @@ Simple graph implementation
 """
 # from util import Stack, Queue  # These may come in handy
 
-# class Queue():
-#     def __init__(self):
-#         self.queue = []
+class Queue():
+    def __init__(self):
+        self.queue = []
 
-#     def enqueue(self, value):
-#         self.queue.append(value)
+    def enqueue(self, value):
+        self.queue.append(value)
 
-#     def dequeue(self):
-#         if self.size() > 0:
-#             return self.queue.pop(0)
-#         else: 
-#             return None
+    def dequeue(self):
+        if self.size() > 0:
+            return self.queue.pop(0)
+        else: 
+            return None
     
-#     def size(self):
-#         return len(self.queue)
+    def size(self):
+        return len(self.queue)
 
 # class Stack():
 #     def __init__(self):
